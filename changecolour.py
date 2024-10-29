@@ -12,7 +12,7 @@ src_path = r'/DICOM_alteration/test_dicom'
 
 save_path = r'/DICOM_alteration/colour_change'
 
-ds = pydicom.dcmread(src_path+ '/' +'USm.1.2.840.113663.1500.1.341661490.3.37.20150904.95606.468')
+ds = pydicom.dcmread(src_path+ '/' +'FILENAME')
 
 pixel_data = ds.pixel_array
 #pull one from to test the pixel function on
@@ -48,7 +48,7 @@ src_path = r'/DICOM_alteration/test_dicom'
 
 save_path = r'/DICOM_alteration/colour_change'
 
-ds = pydicom.dcmread(src_path+ '/' +'USm.1.2.840.113663.1500.1.341661490.3.37.20150904.95606.468')
+ds = pydicom.dcmread(src_path+ '/' +'FILENAME')
 
 #pull pixel data from DICOM
 pixel_data = ds.pixel_array
